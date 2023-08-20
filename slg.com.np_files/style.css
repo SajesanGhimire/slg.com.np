@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Quicksand:wght@400;500;600;700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.mero-guru-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #F8F5E4;
+    min-height: 100vh;
+}
+
+.mero-guru-wrapper h3{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Quicksand', sans-serif;
+    color: #7E7E7E;
+}
+.mero-guru-wrapper h3 span{
+    color: #337A5B;
+}
+.mero-guru-wrapper h1{
+    font-size: 55px;
+    color: #383E4E;
+    font-family: 'Lora', serif;
+    text-transform: uppercase;
+    letter-spacing: 13.75px;
+    font-weight: 400;
+    margin: 0;
+}
+.mero-guru-wrapper p{
+    font-family: 'Quicksand', sans-serif;   
+    font-size: 24px;
+    color: #383E4E;
+    font-weight: 400;
+    margin: 25px 0;
+}
+
+.mero-guru-wrapper form #mc_embed_signup_scroll{
+    display: flex;
+}
+.mero-guru-wrapper form input{
+    border: none;
+    border-radius: 8px 0px 0px 8px;
+    box-shadow: 5px 10px 40px #0000001A;
+    height: 50px;
+    padding: 0 250px 0 25px;
+}
+
+.mero-guru-wrapper form .button{
+    border: none;
+    font-family: 'Quicksand', sans-serif;   
+    font-size: 18px;
+    color: #FFFFFF;
+    font-weight: 600;
+    background: #E95744;
+    border-radius: 0px 8px 8px 0px;
+    text-transform: uppercase;
+    padding: 0 25px;
+    height: 50px;
+}
+.mero-guru-wrapper form .button:hover{
+    color: #000000;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.mero-guru-wrapper img{
+    height: 300px;
+    width: auto;
+    margin-top: 20px;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .mero-guru-wrapper{
+        text-align: center;
+    }
+    .mero-guru-wrapper h3{
+        font-size: 22px;
+    }
+    .mero-guru-wrapper h1{
+        font-size: 32px;
+        color: #383E4E;
+        font-family: 'Lora', serif;
+        text-transform: uppercase;
+        letter-spacing: 13.75px;
+        font-weight: 400;
+        margin: 0;
+    }
+    .mero-guru-wrapper p{
+        font-size: 18px;
+    }
+    .mero-guru-wrapper form input{
+        padding:0 10px;
+    }
+    .mero-guru-wrapper form .button{   
+        font-size: 14px;
+        padding: 0 10px;
+    }
+    .mero-guru-wrapper img{
+        height: 300px;
+        width: 100%;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .mero-guru-wrapper{
+        text-align: center;
+    }
+    .mero-guru-wrapper h3{
+        font-size: 22px;
+    }
+    .mero-guru-wrapper h1{
+        font-size: 32px;
+        color: #383E4E;
+        font-family: 'Lora', serif;
+        text-transform: uppercase;
+        letter-spacing: 13.75px;
+        font-weight: 400;
+        margin: 0;
+    }
+    .mero-guru-wrapper p{
+        font-size: 18px;
+    }
+    .mero-guru-wrapper form input{
+        padding:0 10px;
+    }
+    .mero-guru-wrapper form .button{   
+        font-size: 14px;
+        padding: 0 10px;
+    }
+    .mero-guru-wrapper img{
+        height: 300px;
+        width: 100%;
+    }
+}
